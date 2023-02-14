@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     master:
-      image: kp823/kptlweb:master
+      image: kp823/website:master
       deploy:
         replicas: 2
       pull_policy: always
