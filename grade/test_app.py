@@ -64,3 +64,4 @@ def capture_output(func):
 def test_dockerfile():
     f = open("Dockerfile", "r")
     assert "CMD" in f.read(), "Can't find CMD in Dockerfile"
+
