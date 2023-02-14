@@ -8,7 +8,7 @@ on:
       - 'v*'
 
 env:
-  DOCKER_REPO_NAME: kp823/kptlweb
+  DOCKER_REPO_NAME: kp823/website
 
 jobs:
   build:
